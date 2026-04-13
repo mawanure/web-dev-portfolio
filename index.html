@@ -34,6 +34,7 @@
     </header>
 
     <main>
+        <!--About Me Section-->
         <section class="about secondary-bg">
             <h3 class="section-title">About Me</h3>
             <p class="section-description">
@@ -93,12 +94,14 @@
             </div>
         </section>
 
+        <!--resume section-->
         <section class="resume">
-            <h3 class="section-title">A summary of My Resume</h3>
-            .resume-container{
+            <h3 class="section-title text-align">A summary of My Resume</h3>
+            <div class="resume-container">
                 <!-- .resume-column*2>h3.column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description-->
                  <div class="resume-column">
                     <h3 class="column-title">My Education</h3>
+
                     <div class="experience">
                         <h4 class="experience-title">Master in Computer Engineering</h4>
                         <h5 class="experience-sub-title">Harvard University / 2015 - 2017</h5>
@@ -117,6 +120,7 @@
                         <div class="experience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
                     </div>
                  </div>
+
                  <div class="resume-column">
                     <h3 class="column-title">My Experience</h3>
                     <div class="experience">
@@ -136,12 +140,37 @@
                         <h5 class="experience-sub-title">Adobe Inc / 2017 - 2018</h5>
                         <div class="experience-description">List skill/technologies here. You can change the icon above to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
                     </div>
-                 </div>
-        </section>
 
+                 </div>
+
+            </div>
+
+            <div class="text-align resume-download-cv">
+                <button class="btn-primary">Download CV</button>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer class="secondary-bg">
+        <div class="footer-column">
+            <h3 class="section-title">Let's Connect</h3>
+            <p class="section-description">Please fil out the form on this section to contact with me or call between 9:00 A.m to 8:00 P. M ET,Monday through Friday.</p>
+            <div>
+                <a href="http://"><img src="images/icons/facebook.png" alt="" srcset=""></a>
+                <a href="http://"><img src="images/icons/insta.png" alt="" srcset=""></a>
+                <a href="http://"><img src="images/icons/twitter.png" alt="" srcset=""></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3 class="section-title">Let's Message ME</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your E-mail">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input class="btn-primary" type="submit" value="Submit">
+            </form>
+
+        </div>
 
     </footer>
 </body>
